@@ -34,6 +34,8 @@ export class AppComponent {
   copyToClipboard() {
     console.log('copyToClipboard');
     console.log(this.outputObject);
+    console.log('ccc');
+
 
     const outputText = JSON.stringify(this.outputObject);
     const element = document.createElement('textarea');
